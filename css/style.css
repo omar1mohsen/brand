@@ -91,12 +91,17 @@ header {
 
  .head-video { 
     position: absolute;
+    overflow: hidden;
     width: 100%;
     left: 100%;
     left: 0;
     top: 0;
     z-index: -1;
  }
+.head-video video {
+    min-width: 100vw;
+    min-height: 100vh;
+}
 .shop-now { 
     display: flex;
     justify-content: center;
